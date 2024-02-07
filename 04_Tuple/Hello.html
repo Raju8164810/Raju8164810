@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        .login-form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .login-form:hover {
+            transform: scale(1.05);
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        /* Custom styles for header */
+        .header {
+            background-color: #343a40;
+            /* Dark grey background */
+            color: #ffffff;
+            /* White text color */
+            padding: 20px 0;
+            /* Padding top and bottom 20px, left and right 0 */
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            /* Space between items */
+            align-items: center;
+            /* Center align items vertically */
+        }
+
+        .header h1 {
+            margin-bottom: 0;
+            /* Remove bottom margin for h1 */
+        }
+
+        .header-nav ul {
+            list-style-type: none;
+            /* Remove bullet points */
+            margin-bottom: 0;
+            /* Remove bottom margin */
+        }
+
+        .header-nav ul li {
+            display: inline-block;
+            /* Display list items inline */
+            margin-right: 15px;
+            /* Add right margin between list items */
+        }
+
+        .header-nav ul li:last-child {
+            margin-right: 0;
+            /* Remove margin for last list item */
+        }
+
+        .header-nav ul li a {
+            color: #ffffff;
+            /* White text color for links */
+            text-decoration: none;
+            /* Remove underline from links */
+        }
+
+        .header-nav ul li a:hover {
+            color: #f8f9fa;
+            /* Light grey text color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>My Personal Website</h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container login-container">
+        <div class="login-form">
+            <div class="login-header">
+                <h2>Login</h2>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
